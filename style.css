@@ -1,31 +1,49 @@
-body {
-  font-family: Arial, sans-serif;
-  padding: 20px;
-  background-color: #f0f8ff;
-}
 
-button {
-  margin: 10px;
-  padding: 10px 15px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-#hoverMe {
-  padding: 10px;
-  background: lightgray;
-  width: fit-content;
-  margin-top: 10px;
-}
-
-.tabContent {
-  margin-top: 10px;
-  padding: 10px;
-  background-color: #eee;
-}
-
-input {
-  display: block;
-  margin: 10px 0;
-  padding: 8px;
-}
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .section {
+            margin-bottom: 30px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+        #hoverMe {
+            width: 200px;
+            height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: lightgray;
+            cursor: pointer;
+            margin: 10px 0;
+        }
+        .gallery img {
+            max-width: 300px;
+            margin-bottom: 10px;
+        }
+        .tabs button {
+            margin-right: 10px;
+            padding: 10px;
+        }
+        .tabContent {
+            padding: 15px;
+            border: 1px solid #ddd;
+            margin-top: 10px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        input, button {
+            padding: 10px;
+        }
+        #feedback {
+            font-weight: bold;
+        }
+   
